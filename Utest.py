@@ -1,5 +1,6 @@
 import unittest
-from main import PricingRules,Checkout
+from PriceRules import PricingRules
+from CheckOut import Checkout
 
 class TestCheckout(unittest.TestCase):
     def setUp(self):
